@@ -1,0 +1,17 @@
+C:\Users\Jeremy\source\repos\Flash\Flash\bin\Release\netstandard2.0\Flash.deps.json
+C:\Users\Jeremy\source\repos\Flash\Flash\bin\Release\netstandard2.0\Flash.dll
+C:\Users\Jeremy\source\repos\Flash\Flash\bin\Release\netstandard2.0\ref\Flash.dll
+C:\Users\Jeremy\source\repos\Flash\Flash\bin\Release\netstandard2.0\Flash.pdb
+C:\Users\Jeremy\source\repos\Flash\Flash\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\Jeremy\source\repos\Flash\Flash\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jeremy\source\repos\Flash\Flash\obj\Release\netstandard2.0\Views\EuroMillionsPage.xaml.g.cs
+C:\Users\Jeremy\source\repos\Flash\Flash\obj\Release\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\Jeremy\source\repos\Flash\Flash\obj\Release\netstandard2.0\Views\LotoPage.xaml.g.cs
+C:\Users\Jeremy\source\repos\Flash\Flash\obj\Release\netstandard2.0\Flash.AssemblyInfoInputs.cache
+C:\Users\Jeremy\source\repos\Flash\Flash\obj\Release\netstandard2.0\Flash.AssemblyInfo.cs
+C:\Users\Jeremy\source\repos\Flash\Flash\obj\Release\netstandard2.0\Flash.csproj.CoreCompileInputs.cache
+C:\Users\Jeremy\source\repos\Flash\Flash\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\Jeremy\source\repos\Flash\Flash\obj\Release\netstandard2.0\Flash.dll
+C:\Users\Jeremy\source\repos\Flash\Flash\obj\Release\netstandard2.0\ref\Flash.dll
+C:\Users\Jeremy\source\repos\Flash\Flash\obj\Release\netstandard2.0\Flash.pdb
+C:\Users\Jeremy\source\repos\Flash\Flash\obj\Release\netstandard2.0\Flash.csprojAssemblyReference.cache

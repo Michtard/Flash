@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Flash.Views.EuroPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" 
+                         HorizontalOptions="FillAndExpand" 
+                         VerticalOptions="FillAndExpand"
+                         BackgroundColor="White"
+                         Spacing="0">
+            <Image Source="euro.png"
+                   HeightRequest="100"
+                   Margin="0,70,0,50"/>
+            <StackLayout Orientation="Horizontal" 
+                         HorizontalOptions="CenterAndExpand"
+                         Spacing="0">
+                <Frame CornerRadius="50"
+                       Padding="5"
+                       BorderColor="CadetBlue"
+                       Margin="5"
+                       WidthRequest="50"
+                       HeightRequest="50">
+                    <Label x:Name="lblNum1"
+                           Text="{Binding Euro.Numero_un, Mode=OneWay}"
+                           TextColor="Gray"
+                           FontSize="20"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center"/>
+                </Frame>
+                <Frame CornerRadius="50"
+                       Padding="5"
+                       BorderColor="CadetBlue"
+                       Margin="5"
+                       WidthRequest="50"
+                       HeightRequest="50">
+                    <Label x:Name="lblNum2"
+                           Text="{Binding Euro.Numero_deux, Mode=OneWay}"
+                           TextColor="Gray"
+                           FontSize="20"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center"/>
+                </Frame>
+                <Frame CornerRadius="50"
+                       Padding="5"
+                       BorderColor="CadetBlue"
+                       Margin="5"
+                       WidthRequest="50"
+                       HeightRequest="50">
+                    <Label x:Name="lblNum3"
+                           Text="{Binding Euro.Numero_trois, Mode=OneWay}"
+                           TextColor="Gray"
+                           FontSize="20"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center"/>
+                </Frame>
+                <Frame BorderColor="CadetBlue"
+                       CornerRadius="50"
+                       Padding="5"                       
+                       Margin="5"
+                       WidthRequest="50"
+                       HeightRequest="50">
+                    <Label x:Name="lblNum4"
+                           Text="{Binding Euro.Numero_quatre, Mode=OneWay}"
+                           TextColor="Gray"
+                           FontSize="20"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center"/>
+                </Frame>
+                <Frame CornerRadius="50"
+                       Padding="5"
+                       BorderColor="CadetBlue"
+                       Margin="5"
+                       WidthRequest="50"
+                       HeightRequest="50">
+                    <Label x:Name="lblNum5"
+                           Text="{Binding Euro.Numero_cinq, Mode=OneWay}"
+                           TextColor="Gray"
+                           FontSize="20"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center"/>
+                </Frame>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" 
+                         HorizontalOptions="CenterAndExpand"
+                         Spacing="0">
+                <Frame CornerRadius="50"
+                       Padding="5"
+                       BorderColor="DarkOrange"
+                       Margin="5,5"
+                       WidthRequest="50"
+                       HeightRequest="50">
+                    <Label x:Name="lblEtoi1"
+                           Text="{Binding Euro.Etoile_un, Mode=OneWay}"
+                           TextColor="Gray"
+                           FontSize="20"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center"/>
+                </Frame>
+                <Frame CornerRadius="50"
+                       Padding="5"
+                       BorderColor="DarkOrange"
+                       Margin="5,5"
+                       WidthRequest="50"
+                       HeightRequest="50">
+                    <Label x:Name="lblEtoi2"
+                           Text="{Binding Euro.Etoile_deux, Mode=OneWay}"
+                           TextColor="Gray"
+                           FontSize="20"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center"/>
+                </Frame>
+            </StackLayout>
+            <Label Text="Que la chance soit avec vous!"
+                        HorizontalOptions="Center"
+                        Margin="30, 50, 30, 0"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
